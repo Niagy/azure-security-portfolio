@@ -58,7 +58,7 @@ It highlights how resource groups automatically organize the assets you deploy.
 > You can drag and drop your images into the repo folder and reference them like this:
 
 ### VM Creation Screen
-![VM Creation](01-azure-fundamentals\screenshots\vm_creation.png)
+![VM Creation](01-azure-fundamentals/screenshots/create_rg.png)
 
 ### Resource Group Overview
 ![Resource Group](01-azure-fundamentals\screenshots\create_rg.png)
