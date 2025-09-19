@@ -58,14 +58,13 @@ It highlights how resource groups automatically organize the assets you deploy.
 > You can drag and drop your images into the repo folder and reference them like this:
 
 ### VM Creation Screen
-![VM Creation](..\screenshots\vm_creation.png)
+![VM Creation](screenshots\vm_creation.png)
 
 ### Resource Group Overview
 ![Resource Group](..\screenshots\create_rg.png)
 
 ### VM Deployment Complete
 ![Deployment Complete](..\screenshots\deployment_complete.png)
-
 
 ---
 
