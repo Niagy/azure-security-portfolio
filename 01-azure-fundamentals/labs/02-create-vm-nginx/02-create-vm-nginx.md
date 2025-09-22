@@ -1,4 +1,3 @@
-````markdown
 # Lab: Creating an Azure Virtual Machine and Installing Nginx  
 
 This lab demonstrates how to create and configure an Azure Virtual Machine (VM) using the **Azure CLI**.  
@@ -34,7 +33,7 @@ It highlights how resource groups organize deployed assets and how to install so
 
   ```bash
   az group create --name IntroAzureRG --location eastus
-````
+
 
 * Verified that the `IntroAzureRG` resource group was created successfully
 
