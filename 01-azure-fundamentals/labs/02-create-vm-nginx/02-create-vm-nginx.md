@@ -82,7 +82,7 @@ It highlights how resource groups organize deployed assets and how to install so
 
 ![VM Creation](vm-creation.png)
 
-### Install Nginx Welcome Page
+### Install Nginx
 
 ![Nginx Installation](install-nginx.png)
 
