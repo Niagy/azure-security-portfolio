@@ -170,7 +170,7 @@ It highlights how **Network Security Groups (NSGs)** control inbound and outboun
 
 This removes the VM, NSG, and all related resources to avoid ongoing charges.
 
-![Cleanup](cleanup.png)
+![Cleanup](./screenshots/cleanup.png)
 ---
 
 ## Author
