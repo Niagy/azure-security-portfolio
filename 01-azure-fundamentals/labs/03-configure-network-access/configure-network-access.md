@@ -143,21 +143,21 @@ It highlights how **Network Security Groups (NSGs)** control inbound and outboun
 
 ### Timeout Before Rule Creation
 
-![Bash Timeout](timeout1.png)
+![Bash Timeout](./screenshots/timeout1.png)
 
-![Browser Timeout](timeout2.png)
+![Browser Timeout](./screenshots/timeout2.png)
 
 ### NSG Rules Table
 
-![Default NSG Rules](nsgrules1.png)
+![Default NSG Rules](./screenshots/nsgrules1.png)
 
-![HTTP NSG Rules](nsgrules2.png)
+![HTTP NSG Rules](./screenshots/nsgrules2.png)
 
 ### Web Server Accessible
 
-![Bash Web Server](webserveraccess1.png)
+![Bash Web Server](./screenshots/webserveraccess1.png)
 
-![Browser Web Server](webserveraccess2.png)
+![Browser Web Server](./screenshots/webserveraccess2.png)
 
 
 ---

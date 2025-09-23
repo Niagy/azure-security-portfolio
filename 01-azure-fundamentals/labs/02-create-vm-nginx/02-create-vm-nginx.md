@@ -76,19 +76,19 @@ It highlights how resource groups organize deployed assets and how to install so
 
 ### RG Creation in Cloud Shell
 
-![RG Creation](create-rg.png)
+![RG Creation](./screenshots/create-rg.png)
 
 ### VM Creation
 
-![VM Creation](vm-creation.png)
+![VM Creation](./screenshots/vm-creation.png)
 
 ### Install Nginx
 
-![Nginx Installation](install-nginx.png)
+![Nginx Installation](./screenshots/install-nginx.png)
 
 ### VM Login
 
-![VM Login](vm-login.png)
+![VM Login](./screenshots/vm-login.png)
 
 ---
 
