@@ -114,8 +114,6 @@ You’ll create a new **storage account**, add a **container**, upload a **blob*
 
 ![Blob Access](./screenshots/blob_access2.png)
 
-![Blob Access](./screenshots/blob_access3.png)
-
 ![Blob Access](./screenshots/blob_access4.png)
 
 ![Blob Access](./screenshots/blob_access5.png)
