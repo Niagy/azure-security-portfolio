@@ -68,9 +68,7 @@ Resource locks help prevent accidental changes or deletions of critical resource
 
 ---
 
-## 🖼️ Screenshots  
-
-> Drag and drop your screenshots into your repository (e.g. `images` folder) and reference them here:  
+## 🖼️ Screenshots 
 
 - **Add Resource Lock**  
   ![Add Lock](./screenshots/add_lock.png)
@@ -81,11 +79,15 @@ Resource locks help prevent accidental changes or deletions of critical resource
 - **Modify Lock Type**  
   ![Modify Lock](./screenshots/modify_lock.png)
 
+  ![Modify Lock](./screenshots/modify_lock2.png)
+
 - **Delete Storage Account Error**  
   ![Delete Error](./screenshots/delete_error.png)
 
 - **Confirm Deletion After Lock Removal**  
-  ![Confirm Deletion](./screenshots/confirm_deletion.png)
+  ![Delete Lock](./screenshots/delete_lock.png)
+
+  ![Confirm Deletion](./screenshots/delete_confirmation.png)
 
 ---
 
