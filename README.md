@@ -6,7 +6,7 @@ Each section aligns with Microsoft certifications (AZ-900 → SC-100) and demons
 
 ## 📌 Certifications in Progress
 - [x] AZ-900: Azure Fundamentals
-- [ ] AZ-104: Azure Administrator
+- [x] AZ-104: Azure Administrator
 - [ ] AZ-700: Network Engineer
 - [ ] AZ-500: Security Engineer
 - [ ] SC-200: Security Operations Analyst
