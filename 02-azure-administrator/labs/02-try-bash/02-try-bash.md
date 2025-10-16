@@ -46,17 +46,17 @@ cd ..
 ```
 
 ## Screenshots
-[Screenshot](./screenshots/Screenshot%202025-10-16%20121010.png)
+![Screenshot](./screenshots/Screenshot%202025-10-16%20121010.png)
 
-[Screenshot](./screenshots/Screenshot%202025-10-16%20124721.png)
+![Screenshot](./screenshots/Screenshot%202025-10-16%20124721.png)
 
-[Screenshot](./screenshots/Screenshot%202025-10-16%20124902.png)
+![Screenshot](./screenshots/Screenshot%202025-10-16%20124902.png)
 
-[Screenshot](./screenshots/Screenshot%202025-10-16%20124952.png)
+![Screenshot](./screenshots/Screenshot%202025-10-16%20124952.png)
 
-[Screenshot](./screenshots/Screenshot%202025-10-16%20125108.png)
+![Screenshot](./screenshots/Screenshot%202025-10-16%20125108.png)
 
-[Screenshot](./screenshots/Screenshot%202025-10-16%20125139.png)
+![Screenshot](./screenshots/Screenshot%202025-10-16%20125139.png)
 
 ## 🧩 Key Takeaways
 Azure Cloud Shell provides a convenient way to manage Azure resources without local installation.
