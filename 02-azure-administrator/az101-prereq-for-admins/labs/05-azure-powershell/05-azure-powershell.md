@@ -30,7 +30,7 @@ Output Example:
 
 Name                           Value
 ----                           -----
-PSVersion                      7.3.6
+PSVersion                      7.5.2
 PSEdition                      Core
 Platform                       Unix
 ...
@@ -38,12 +38,6 @@ Platform                       Unix
 3.	**Display Specific Version Information**
 
 $PSVersionTable.PSVersion
-
-Output Example:
-
-Major  Minor  Patch
------  -----  -----
-7      3      6
 
 ![Screenshot](./screenshots/screenshot1.png)
 
@@ -111,10 +105,6 @@ By mastering the basics, you build a strong foundation for automating Azure mana
 
 ⸻
 
-Author: [Your Name]
+Author: [John Niagwan]
 Certification Path: Microsoft Certified: Azure Fundamentals → Azure Administrator Associate
 Module: PowerShell Basics in Azure Cloud Shell
-
----
-
-Would you like me to format this with **badges**, like “🧩 AZ-104 Exercise” or a **GitHub-style project card layout** (great for a professional portfolio repo)?
