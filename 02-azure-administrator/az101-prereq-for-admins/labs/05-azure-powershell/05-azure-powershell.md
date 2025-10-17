@@ -105,7 +105,7 @@ By mastering the basics, you build a strong foundation for automating Azure mana
 
 ⸻
 
-Author: [John Niagwan]
+Author: John Niagwan
 
 Certification Path: Microsoft Certified: Azure Fundamentals → Azure Administrator Associate
 
