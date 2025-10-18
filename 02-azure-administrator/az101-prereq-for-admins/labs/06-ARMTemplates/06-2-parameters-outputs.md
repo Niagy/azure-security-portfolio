@@ -219,6 +219,7 @@ az deployment group create \
 ## 🏁 Completion
 
 ✅ Exercise Completed: Add Parameters and Outputs to an ARM Template
+
 🏅 Achievement: Strengthened understanding of ARM template design, validation, and deployment.
 
 ---
