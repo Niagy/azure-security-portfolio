@@ -179,7 +179,7 @@ Complete version of the final azuredeploy.json file:
     }
   }
 }```
-
+```
 
 ⸻
 
