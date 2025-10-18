@@ -129,7 +129,7 @@ Added an output to return the primary endpoints of the deployed storage account:
 ## 🧾 Final Template
 
 Complete version of the final azuredeploy.json file:
-
+```json
 {
   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
@@ -178,7 +178,7 @@ Complete version of the final azuredeploy.json file:
       "value": "[reference(parameters('storageName')).primaryEndpoints]"
     }
   }
-}
+}```
 
 
 ⸻
