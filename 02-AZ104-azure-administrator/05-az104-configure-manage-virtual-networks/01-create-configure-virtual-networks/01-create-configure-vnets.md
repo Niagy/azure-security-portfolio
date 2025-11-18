@@ -26,7 +26,7 @@ You will accomplish the following:
 ---
 
 ## 🏗️ Architecture Diagram  
-**Diagram Placeholder — Add your VNet and Peering Diagram Here**
+![screenshot](./screenshots/task-1.png)
 
 ---
 
@@ -66,8 +66,8 @@ Each resource is deployed into a **subnet** within a virtual network.
 
 5. Select **Review + Create**, then **Create**.
 
-📸 **Screenshot Placeholder — app-vnet Settings**  
-📸 **Screenshot Placeholder — Subnet Configuration**
+![screenshot](./screenshots/task-1.png) 
+![screenshot](./screenshots/appsubnets.png)
 
 ---
 
@@ -86,7 +86,7 @@ Repeat the creation process using the following:
 | Subnet name | **AzureFirewallSubnet** |
 | Subnet address range | 10.0.0.0/26 |
 
-📸 **Screenshot Placeholder — hub-vnet Settings**
+![screenshot](./screenshots/hub-vnet.png)
 
 ---
 
@@ -98,8 +98,9 @@ Repeat the creation process using the following:
    - hub-vnet  
 3. Select each VNet and verify their subnets are correctly deployed.
 
-📸 **Screenshot Placeholder — Virtual Network List**  
-📸 **Screenshot Placeholder — Subnet Overview**
+![screenshot](./screenshots/vnetsList.png)  
+![screenshot](./screenshots/appsubnets.png)
+![screenshot](./screenshots/hubsubnet.png)
 
 ---
 
@@ -126,7 +127,6 @@ Configure the peering with:
 Leave all other settings as defaults.  
 Select **Add**.
 
-📸 **Screenshot Placeholder — Peering Creation Screen**
 
 ---
 
@@ -134,7 +134,7 @@ Select **Add**.
 
 - After deployment, confirm the **Peering status** shows **Connected**.
 
-📸 **Screenshot Placeholder — Peering Status Connected**
+![screenshot](./screenshots/peering.png)
 
 ---
 
