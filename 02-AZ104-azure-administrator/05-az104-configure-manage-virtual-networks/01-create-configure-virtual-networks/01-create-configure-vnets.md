@@ -66,6 +66,7 @@ Each resource is deployed into a **subnet** within a virtual network.
 
 5. Select **Review + Create**, then **Create**.
 
+![screenshot](./screenshots/app-vnet.png)
 ![screenshot](./screenshots/appsubnets.png)
 
 ---
