@@ -40,12 +40,12 @@ You’ll complete the tasks using **Azure Cloud Shell** and the **Azure CLI**.
 
 ### **2. Create a Route Table**
 
-```bash
+bash
 az network route-table create \
     --name publictable \
     --resource-group "myResourceGroupName" \
     --disable-bgp-route-propagation false
-```
+
 
 ![screenshot](./screenshot/routeTable.png)
 
@@ -55,7 +55,7 @@ az network route-table create \
 
 This route directs all traffic intended for the **private subnet (10.0.1.0/24)** through a **virtual appliance at 10.0.2.4**.
 
-```bash
+bash
 az network route-table route create \
     --route-table-name publictable \
     --resource-group "myResourceGroupName" \
@@ -63,7 +63,7 @@ az network route-table route create \
     --address-prefix 10.0.1.0/24 \
     --next-hop-type VirtualAppliance \
     --next-hop-ip-address 10.0.2.4
-```
+
 
 ![screenshot](./screenshot/customRouteCreated.png)
 
@@ -81,14 +81,14 @@ You will now create a virtual network named **vnet** and three subnets:
 
 ### **1. Create the Virtual Network and Public Subnet**
 
-```bash
+bash
 az network vnet create \
     --name vnet \
     --resource-group "myResourceGroupName" \
     --address-prefixes 10.0.0.0/16 \
     --subnet-name publicsubnet \
     --subnet-prefixes 10.0.0.0/24
-```
+
 
 ![screenshot](./screenshot/vnet_publicsubnet.png
 
@@ -96,25 +96,25 @@ az network vnet create \
 
 ### **2. Create the Private Subnet**
 
-```bash
+bash
 az network vnet subnet create \
     --name privatesubnet \
     --vnet-name vnet \
     --resource-group "myResourceGroupName" \
     --address-prefixes 10.0.1.0/24
-```
+
 
 ---
 
 ### **3. Create the DMZ Subnet**
 
-```bash
+bash
 az network vnet subnet create \
     --name dmzsubnet \
     --vnet-name vnet \
     --resource-group "myResourceGroupName" \
     --address-prefixes 10.0.2.0/24
-```
+
 
 ![screenshot](./screenshot/private_dmz_subnet.png)
 
@@ -122,12 +122,12 @@ az network vnet subnet create \
 
 ### **4. List All Subnets**
 
-```bash
+bash
 az network vnet subnet list \
     --resource-group "myResourceGroupName" \
     --vnet-name vnet \
     --output table
-```
+
 
 ![screenshot](./screenshot/allSubnets.png)
 
@@ -137,13 +137,13 @@ az network vnet subnet list \
 
 This ensures that **publicsubnet traffic follows the custom route** created earlier.
 
-```bash
+bash
 az network vnet subnet update \
     --name publicsubnet \
     --vnet-name vnet \
     --resource-group "myResourceGroupName" \
     --route-table publictable
-```
+
 
 ![screenshot](./screenshot/routeTableAssociation.png)
 
