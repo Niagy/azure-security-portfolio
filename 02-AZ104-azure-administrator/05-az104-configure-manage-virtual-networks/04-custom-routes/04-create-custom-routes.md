@@ -1,4 +1,4 @@
-````md
+
 # **Exercise – Create a Route Table, Custom Route, and Virtual Network**
 
 ## **Overview**
@@ -167,4 +167,3 @@ You have successfully:
 * Associated a route table with a subnet
 
 ---
-````
