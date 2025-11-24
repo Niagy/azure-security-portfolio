@@ -36,7 +36,7 @@ You’ll complete the tasks using **Azure Cloud Shell** and the **Azure CLI**.
 3. Select **Settings → Go to Classic version**
 
 📸 *Screenshot Placeholder*
-`![screenshot](./screenshot/cloudShellClassic.png)`
+![screenshot](./screenshot/cloudShellClassic.png)
 
 ---
 
@@ -50,7 +50,7 @@ az network route-table create \
 ```
 
 📸 *Screenshot Placeholder*
-`![screenshot](./screenshot/routeTable.png)`
+![screenshot](./screenshot/routeTable.png)
 
 ---
 
@@ -69,7 +69,7 @@ az network route-table route create \
 ```
 
 📸 *Screenshot Placeholder*
-`![screenshot](./screenshot/customRouteCreated.png)`
+![screenshot](./screenshot/customRouteCreated.png)
 
 ---
 
@@ -95,7 +95,7 @@ az network vnet create \
 ```
 
 📸 *Screenshot Placeholder*
-`![screenshot](./screenshot/vnet_publicsubnet.png)`
+![screenshot](./screenshot/vnet_publicsubnet.png)
 
 ---
 
@@ -122,7 +122,7 @@ az network vnet subnet create \
 ```
 
 📸 *Screenshot Placeholder*
-`![screenshot](./screenshot/private_dmz_subnet.png)`
+![screenshot](./screenshot/private_dmz_subnet.png)
 
 ---
 
@@ -136,7 +136,7 @@ az network vnet subnet list \
 ```
 
 📸 *Screenshot Placeholder*
-`![screenshot](./screenshot/allSubnets.png)`
+![screenshot](./screenshot/allSubnets.png)
 
 ---
 
@@ -153,7 +153,7 @@ az network vnet subnet update \
 ```
 
 📸 *Screenshot Placeholder*
-`![screenshot](./screenshot/routeTableAssociation.png)`
+![screenshot](./screenshot/routeTableAssociation.png)
 
 ---
 
