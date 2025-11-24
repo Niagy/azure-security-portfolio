@@ -28,34 +28,36 @@ You’ll complete the tasks using **Azure Cloud Shell** and the **Azure CLI**.
 
 # **Task 1 — Create a Route Table and a Custom Route**
 
-### **1. Open Azure Cloud Shell**
+## **1. Open Azure Cloud Shell**
 
 1. Go to the Azure portal
 2. Open **Cloud Shell**
 3. Select **Settings → Go to Classic version**
 
-![screenshot](./screenshot/cloudShellClassic.png)
+📸 *Screenshot Placeholder*
+`![screenshot](./screenshot/cloudShellClassic.png)`
 
 ---
 
-### **2. Create a Route Table**
+## **2. Create a Route Table**
 
-bash
+```bash
 az network route-table create \
     --name publictable \
     --resource-group "myResourceGroupName" \
     --disable-bgp-route-propagation false
+```
 
-
-![screenshot](./screenshot/routeTable.png)
+📸 *Screenshot Placeholder*
+`![screenshot](./screenshot/routeTable.png)`
 
 ---
 
-### **3. Add a Custom Route**
+## **3. Add a Custom Route**
 
 This route directs all traffic intended for the **private subnet (10.0.1.0/24)** through a **virtual appliance at 10.0.2.4**.
 
-bash
+```bash
 az network route-table route create \
     --route-table-name publictable \
     --resource-group "myResourceGroupName" \
@@ -63,9 +65,10 @@ az network route-table route create \
     --address-prefix 10.0.1.0/24 \
     --next-hop-type VirtualAppliance \
     --next-hop-ip-address 10.0.2.4
+```
 
-
-![screenshot](./screenshot/customRouteCreated.png)
+📸 *Screenshot Placeholder*
+`![screenshot](./screenshot/customRouteCreated.png)`
 
 ---
 
@@ -79,57 +82,60 @@ You will now create a virtual network named **vnet** and three subnets:
 
 ---
 
-### **1. Create the Virtual Network and Public Subnet**
+## **1. Create the Virtual Network and Public Subnet**
 
-bash
+```bash
 az network vnet create \
     --name vnet \
     --resource-group "myResourceGroupName" \
     --address-prefixes 10.0.0.0/16 \
     --subnet-name publicsubnet \
     --subnet-prefixes 10.0.0.0/24
+```
 
-
-![screenshot](./screenshot/vnet_publicsubnet.png
+📸 *Screenshot Placeholder*
+`![screenshot](./screenshot/vnet_publicsubnet.png)`
 
 ---
 
-### **2. Create the Private Subnet**
+## **2. Create the Private Subnet**
 
-bash
+```bash
 az network vnet subnet create \
     --name privatesubnet \
     --vnet-name vnet \
     --resource-group "myResourceGroupName" \
     --address-prefixes 10.0.1.0/24
-
+```
 
 ---
 
-### **3. Create the DMZ Subnet**
+## **3. Create the DMZ Subnet**
 
-bash
+```bash
 az network vnet subnet create \
     --name dmzsubnet \
     --vnet-name vnet \
     --resource-group "myResourceGroupName" \
     --address-prefixes 10.0.2.0/24
+```
 
-
-![screenshot](./screenshot/private_dmz_subnet.png)
+📸 *Screenshot Placeholder*
+`![screenshot](./screenshot/private_dmz_subnet.png)`
 
 ---
 
-### **4. List All Subnets**
+## **4. List All Subnets**
 
-bash
+```bash
 az network vnet subnet list \
     --resource-group "myResourceGroupName" \
     --vnet-name vnet \
     --output table
+```
 
-
-![screenshot](./screenshot/allSubnets.png)
+📸 *Screenshot Placeholder*
+`![screenshot](./screenshot/allSubnets.png)`
 
 ---
 
@@ -137,15 +143,16 @@ az network vnet subnet list \
 
 This ensures that **publicsubnet traffic follows the custom route** created earlier.
 
-bash
+```bash
 az network vnet subnet update \
     --name publicsubnet \
     --vnet-name vnet \
     --resource-group "myResourceGroupName" \
     --route-table publictable
+```
 
-
-![screenshot](./screenshot/routeTableAssociation.png)
+📸 *Screenshot Placeholder*
+`![screenshot](./screenshot/routeTableAssociation.png)`
 
 ---
 
@@ -157,3 +164,7 @@ You have successfully:
 * Added a custom route
 * Built a virtual network with three subnets
 * Associated a route table with a subnet
+
+---
+
+
