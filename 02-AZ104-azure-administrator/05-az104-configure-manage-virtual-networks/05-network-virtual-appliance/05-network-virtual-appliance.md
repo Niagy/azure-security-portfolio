@@ -41,7 +41,6 @@ az vm create \
     --admin-password <password>
 ```
 
-📸 **Screenshot Placeholder — VM Deployment Output**
 ![screenshot](./screenshots/vm-created.png)
 
 ---
@@ -61,7 +60,6 @@ NICID=$(az vm nic list \
 echo $NICID
 ```
 
-📸 **Screenshot Placeholder — NIC ID Output**
 ![screenshot](./screenshots/nic-id.png)
 
 ---
@@ -78,7 +76,6 @@ NICNAME=$(az vm nic show \
 echo $NICNAME
 ```
 
-📸 **Screenshot Placeholder — NIC Name Output**
 ![screenshot](./screenshots/nic-name.png)
 
 ---
@@ -91,7 +88,6 @@ az network nic update --name $NICNAME \
     --ip-forwarding true
 ```
 
-📸 **Screenshot Placeholder — IP Forwarding Enabled**
 ![screenshot](./screenshots/ip-forwarding-nic1.png)
 ![screenshot](./screenshots/ip-forwarding-nic2.png)
 
@@ -113,7 +109,6 @@ NVAIP="$(az vm list-ip-addresses \
 echo $NVAIP
 ```
 
-📸 **Screenshot Placeholder — VM Public IP**
 ![screenshot](./screenshots/nva-public-ip.png)
 
 ---
@@ -126,7 +121,6 @@ ssh -t -o StrictHostKeyChecking=no azureuser@$NVAIP 'sudo sysctl -w net.ipv4.ip_
 
 You will be prompted for your VM admin password.
 
-📸 **Screenshot Placeholder — IP Forwarding Enabled in VM**
 ![screenshot](./screenshots/ip-forwarding-vm.png)
 
 ---
