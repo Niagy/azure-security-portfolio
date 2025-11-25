@@ -11,6 +11,8 @@ In this exercise, you will:
 
 This setup is a common architecture for inspecting or filtering traffic between public-facing systems and internal workloads.
 
+![screenshot](./screenshots/5-nva-ip-forwarding.svg)
+
 ---
 
 ## **🧰 Prerequisites**

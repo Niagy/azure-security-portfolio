@@ -11,6 +11,7 @@ In this lab, you create:
 * An **association between the route table and a subnet**
 
 You’ll complete the tasks using **Azure Cloud Shell** and the **Azure CLI**.
+![screenshot](./screenshot/3-virtual-network-subnets-route-table.svg)
 
 ---
 
@@ -35,7 +36,6 @@ You’ll complete the tasks using **Azure Cloud Shell** and the **Azure CLI**.
 2. Open **Cloud Shell**
 3. Select **Settings → Go to Classic version**
 
-📸 *Screenshot Placeholder*
 ![screenshot](./screenshot/cloudShellClassic.png)
 
 ---
@@ -68,7 +68,6 @@ az network route-table route create \
     --next-hop-ip-address 10.0.2.4
 ```
 
-📸 *Screenshot Placeholder*
 ![screenshot](./screenshot/customRouteCreated.png)
 
 ---
@@ -94,7 +93,6 @@ az network vnet create \
     --subnet-prefixes 10.0.0.0/24
 ```
 
-📸 *Screenshot Placeholder*
 ![screenshot](./screenshot/vnet_publicsubnet.png)
 
 ---
@@ -121,7 +119,6 @@ az network vnet subnet create \
     --address-prefixes 10.0.2.0/24
 ```
 
-📸 *Screenshot Placeholder*
 ![screenshot](./screenshot/private_dmz_subnet.png)
 
 ---
@@ -135,7 +132,6 @@ az network vnet subnet list \
     --output table
 ```
 
-📸 *Screenshot Placeholder*
 ![screenshot](./screenshot/allSubnets.png)
 
 ---
@@ -152,7 +148,6 @@ az network vnet subnet update \
     --route-table publictable
 ```
 
-📸 *Screenshot Placeholder*
 ![screenshot](./screenshot/routeTableAssociation.png)
 
 ---
