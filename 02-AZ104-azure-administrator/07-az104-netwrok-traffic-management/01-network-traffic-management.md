@@ -1,4 +1,3 @@
-```md
 # 🌐 Lab 06 – Implement Network Traffic Management
 
 ## 📘 Lab Overview
@@ -49,7 +48,6 @@ You will deploy:
 ### 🔹 Steps
 
 1. Download the lab files:
-```
 
 \Allfiles\Labs\06\
 
