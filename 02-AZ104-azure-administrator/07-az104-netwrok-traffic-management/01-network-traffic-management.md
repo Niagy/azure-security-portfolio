@@ -168,7 +168,7 @@ Public IP Name: `az104-lbpip`
 # 🚦 Task 3 – Configure Azure Application Gateway
 
 Application Gateway provides **Layer 7 routing**, including **path-based routing**.
-[Topology](./images/az104-lab06-gw-architecture.png)
+![Topology](./images/az104-lab06-gw-architecture.png)
 
 ---
 
