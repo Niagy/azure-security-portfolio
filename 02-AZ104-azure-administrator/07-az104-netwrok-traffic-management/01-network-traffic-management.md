@@ -86,6 +86,7 @@ You will deploy:
 # ⚖️ Task 2 – Configure Azure Load Balancer
 
 Azure Load Balancer provides **Layer 4 (TCP)** load balancing across backend VMs.
+![Topology](./images/az104-lab06-lb-architecture.png)
 
 ---
 
@@ -167,6 +168,7 @@ Public IP Name: `az104-lbpip`
 # 🚦 Task 3 – Configure Azure Application Gateway
 
 Application Gateway provides **Layer 7 routing**, including **path-based routing**.
+[Topology](./images/az104-lab06-gw-architecture.png)
 
 ---
 
@@ -240,7 +242,7 @@ http://<ip>/video/
 
 You successfully:
 
-✔ Deployed infrastructure using ARM templates
-✔ Configured a public Load Balancer
-✔ Implemented an Application Gateway
-✔ Verified path-based routing
+✔ Deployed infrastructure using ARM templates 
+✔ Configured a public Load Balancer 
+✔ Implemented an Application Gateway 
+✔ Verified path-based routing 
